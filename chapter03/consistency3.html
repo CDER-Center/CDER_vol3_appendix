@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDC Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" onclick="window.open('', '_self');">Home</a></li>
+        <li>
+            <a href="#">Question Categories ▾</a>
+            <ul class="dropdown">
+                <li><a href="concurrency.html" onclick="window.open('concurrency.html', '_self');">1 - Concurrency</a></li>
+                <li><a href="mutualexclusion.html"  onclick="window.open('mutualexclusion.html', '_self');">2 - Mutual Exclusion</a></li>
+                <li><a href="consistency.html" onclick="window.open('consistency.html', '_self');">3 - Consistency in State/Memory Manipulation</a></li>
+                <li><a href="messagepassing.html" onclick="window.open('messagepassing.html', '_self');">4 - Message Passing</a></li>
+                <li><a href="sharedmemory.html" onclick="window.open('sharedmemory.html', '_self');">5 - Shared Memory Models</a></li>
+                <li><a href="scalability.html" onclick="window.open('scalability.html', '_self');">6 - Scalability</a></li>
+                <li><a href="scheduling.html" onclick="window.open('scheduling.html', '_self');">7 - Scheduling and Load Balancing</a></li>
+                <li><a href="speedup.html" onclick="window.open('speedup.html', '_self');">8 - Speedup/Amdahl's Law</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+    <br>
+    <p style="text-align: center;">Consistency in State/Memory Manipulation – CC</p>
+    <h2>Question 3. What is the CAP theorem and how does it relate to consistency?</h2>
+    <br>
+    <h3>Answer:</h3>
+    <p>
+        The CAP theorem states that in a distributed system, it is impossible to achieve Consistency, Availability, and Partition tolerance simultaneously. A system can only guarantee two out of these three properties. Consistency refers to ensuring all nodes see the same data after a write operation.
+    </p>
+    <br>
+    <h3>Resources:</h3>
+    <p>ScyllaDB Glossary: CAP Theorem</p>
+    <p><a target="_blank" href= "https://www.scylladb.com/glossary/cap-theorem/#:~:text=Consistency%20of%20CAP%20theorem%20means,CAP%20theorem%20eventual%20consistency.">View here</a></p>
+    <br>   
+    <br>  
+    <p>IBM Article: What is the CAP Theorem?</p>
+    <p><a target="_blank" href= "https://www.ibm.com/think/topics/cap-theorem">View here</a></p>
+    <br>   
+    <br> 
+    <p>Parallel Computing Consistency Explained – Information Document </p>
+    <p><a target="_blank" href= "/resources/Parallel Computing Consistency Explained_.pdf">View Here</a></p>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDC Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1 style="font-size: 40px; font-family: Archivo; background-color: #648870; color: #fff;;">PDC Quest</h1>
+        <ul>
+        <li style="font-size: 10px; font-family: Archivo;"><a href="index.html" onclick="window.open('', '_self');">HOME</a></li>
+        <li style="font-family: Archivo;">
+            <a href="#">QUESTION CATEGORIES ▾</a>
+            <ul class="dropdown">
+                <li style="font-family: Roboto;"><a href="concurrency.html" onclick="window.open('concurrency.html', '_self');">1 - Concurrency</a></li>
+                <li style="font-family: Roboto;"><a href="mutualexclusion.html"  onclick="window.open('mutualexclusion.html', '_self');">2 - Mutual Exclusion</a></li>
+                <li style="font-family: Roboto;"><a href="consistency.html" onclick="window.open('consistency.html', '_self');">3 - Consistency in State/Memory Manipulation</a></li>
+                <li style="font-family: Roboto;"><a href="messagepassing.html" onclick="window.open('messagepassing.html', '_self');">4 - Message Passing</a></li>
+                <li style="font-family: Roboto;"><a href="sharedmemory.html" onclick="window.open('sharedmemory.html', '_self');">5 - Shared Memory Models</a></li>
+                <li style="font-family: Roboto;"><a href="scalability.html" onclick="window.open('scalability.html', '_self');">6 - Scalability</a></li>
+                <li style="font-family: Roboto;"><a href="scheduling.html" onclick="window.open('scheduling.html', '_self');">7 - Scheduling and Load Balancing</a></li>
+                <li style="font-family: Roboto;"><a href="speedup.html" onclick="window.open('speedup.html', '_self');">8 - Speedup/Amdahl's Law</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+    <br>
+    <p style="text-align: center;">Mutual Exclusion – ME</p>
+    <h2>Question 4. What is the difference between mutual exclusion and deadlock?</h2>
+    <br>
+    <h3>Answer:</h3>
+    <p>
+        Mutual exclusion ensures that only one process can access a shared resource at a time. Deadlock, on the other hand, occurs when two or more processes are unable to proceed because they are each waiting for the other to release resources, creating an indefinite wait.
+    </p>
+    <br>
+    <h3>Resources:</h3>
+    <p>The City University of New York Article: Deadlocks</p>
+    <p><a target="_blank" href= "https://www.sci.brooklyn.cuny.edu/~philaris/cis25/deadlock.html#:~:text=in%20a%20system%3A-,Mutual%20Exclusion%3A,-At%20least%20one">View here</a></p>
+</body>
+</html>

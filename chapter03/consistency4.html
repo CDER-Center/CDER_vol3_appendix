@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDC Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" onclick="window.open('', '_self');">Home</a></li>
+        <li>
+            <a href="#">Question Categories ▾</a>
+            <ul class="dropdown">
+                <li><a href="concurrency.html" onclick="window.open('concurrency.html', '_self');">1 - Concurrency</a></li>
+                <li><a href="mutualexclusion.html"  onclick="window.open('mutualexclusion.html', '_self');">2 - Mutual Exclusion</a></li>
+                <li><a href="consistency.html" onclick="window.open('consistency.html', '_self');">3 - Consistency in State/Memory Manipulation</a></li>
+                <li><a href="messagepassing.html" onclick="window.open('messagepassing.html', '_self');">4 - Message Passing</a></li>
+                <li><a href="sharedmemory.html" onclick="window.open('sharedmemory.html', '_self');">5 - Shared Memory Models</a></li>
+                <li><a href="scalability.html" onclick="window.open('scalability.html', '_self');">6 - Scalability</a></li>
+                <li><a href="scheduling.html" onclick="window.open('scheduling.html', '_self');">7 - Scheduling and Load Balancing</a></li>
+                <li><a href="speedup.html" onclick="window.open('speedup.html', '_self');">8 - Speedup/Amdahl's Law</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+    <br>
+    <p style="text-align: center;">Consistency in State/Memory Manipulation – CC</p>
+    <h2>Question 4. What is the role of consistency models in memory manipulation?</h2>
+    <br>
+    <h3>Answer:</h3>
+    <p>
+        Consistency models define the rules for how updates to shared memory or state are propagated and visible across different processes or nodes. These models ensure that multiple processes or nodes observe the same sequence of updates, providing a framework for managing shared data in a consistent manner.
+    </p>
+    <br>
+    <h3>Resources:</h3>
+    <p>Standford University Slides: Memory Consistency</p>
+    <p><a target="_blank" href= "https://gfxcourses.stanford.edu/cs149/winter19content/lectures/09_consistency/09_consistency_slides.pdf">View here</a></p>
+    <br>   
+    <br>
+    <p>Parallel Computing Consistency Explained – Information Document</p>
+    <p><a target="_blank" href= "/resources/Parallel Computing Consistency Explained_.pdf">View Here</a></p>
+</body>
+</html>

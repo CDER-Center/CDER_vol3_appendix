@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDC Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1 style="font-size: 40px; font-family: Archivo; background-color: #648870; color: #fff;;">PDC Quest</h1>
+        <ul>
+        <li style="font-size: 10px; font-family: Archivo;"><a href="index.html" onclick="window.open('', '_self');">HOME</a></li>
+        <li style="font-family: Archivo;">
+            <a href="#">QUESTION CATEGORIES ▾</a>
+            <ul class="dropdown">
+                <li style="font-family: Archivo;"><a href="concurrency.html" onclick="window.open('concurrency.html', '_self');">1 - Concurrency</a></li>
+                <li style="font-family: Archivo;"><a href="mutualexclusion.html"  onclick="window.open('mutualexclusion.html', '_self');">2 - Mutual Exclusion</a></li>
+                <li style="font-family: Archivo;"><a href="consistency.html" onclick="window.open('consistency.html', '_self');">3 - Consistency in State/Memory Manipulation</a></li>
+                <li style="font-family: Archivo;"><a href="messagepassing.html" onclick="window.open('messagepassing.html', '_self');">4 - Message Passing</a></li>
+                <li style="font-family: Archivo;"><a href="sharedmemory.html" onclick="window.open('sharedmemory.html', '_self');">5 - Shared Memory Models</a></li>
+                <li style="font-family: Archivo;"><a href="scalability.html" onclick="window.open('scalability.html', '_self');">6 - Scalability</a></li>
+                <li style="font-family: Archivo;"><a href="scheduling.html" onclick="window.open('scheduling.html', '_self');">7 - Scheduling and Load Balancing</a></li>
+                <li style="font-family: Archivo;"><a href="speedup.html" onclick="window.open('speedup.html', '_self');">8 - Speedup/Amdahl's Law</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+    <br>
+    <p style="text-align: center;">Mutual Exclusion – ME</p>
+    <h2>Question 6. What are the potential problems of using locks for mutual exclusion?</h2>
+    <br>
+    <h3>Answer:</h3>
+    <p>
+        Problems with using locks include deadlock (where processes wait indefinitely for a lock), livelock (where processes keep changing state without making progress), and starvation (where a process never gains access to the resource because others are continuously locking it).
+    </p>
+    <br>
+    <h3>Resources:</h3>
+    <p>TutorialsPoint Article: Lock Variable Mechanism</p>
+    <p><a target="_blank" href= "https://www.tutorialspoint.com/lock-variable-mechanism#:~:text=Disadvantages%20of%20Lock%20Variable%20Mechanism">View here</a></p>
+</body>
+</html>

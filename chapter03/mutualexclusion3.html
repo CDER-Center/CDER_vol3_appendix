@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDC Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1 style="font-size: 40px; font-family: Archivo; background-color: #648870; color: #fff;;">PDC Quest</h1>
+        <ul>
+        <li style="font-size: 10px; font-family: Archivo;"><a href="index.html" onclick="window.open('', '_self');">HOME</a></li>
+        <li style="font-family: Archivo;">
+            <a href="#">QUESTION CATEGORIES ▾</a>
+            <ul class="dropdown">
+                <li style="font-family: Archivo;"><a href="concurrency.html" onclick="window.open('concurrency.html', '_self');">1 - Concurrency</a></li>
+                <li style="font-family: Archivo;"><a href="mutualexclusion.html"  onclick="window.open('mutualexclusion.html', '_self');">2 - Mutual Exclusion</a></li>
+                <li style="font-family: Archivo;"><a href="consistency.html" onclick="window.open('consistency.html', '_self');">3 - Consistency in State/Memory Manipulation</a></li>
+                <li style="font-family: Archivo;"><a href="messagepassing.html" onclick="window.open('messagepassing.html', '_self');">4 - Message Passing</a></li>
+                <li style="font-family: Archivo;"><a href="sharedmemory.html" onclick="window.open('sharedmemory.html', '_self');">5 - Shared Memory Models</a></li>
+                <li style="font-family: Archivo;"><a href="scalability.html" onclick="window.open('scalability.html', '_self');">6 - Scalability</a></li>
+                <li style="font-family: Archivo;"><a href="scheduling.html" onclick="window.open('scheduling.html', '_self');">7 - Scheduling and Load Balancing</a></li>
+                <li style="font-family: Archivo;"><a href="speedup.html" onclick="window.open('speedup.html', '_self');">8 - Speedup/Amdahl's Law</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>
+    <br>
+    <p style="text-align: center;">Mutual Exclusion – ME</p>
+    <h2>Question 3. What are locks, and how do they implement mutual exclusion? </h2>
+    <br>
+    <h3>Answer:</h3>
+    <p>
+        Locks are synchronization mechanisms that prevent multiple threads or processes from entering the critical section at the same time. By "locking" the resource, a process ensures mutual exclusion, allowing only one process access at any given time.
+    </p>
+    <br>
+    <h3>Resources:</h3>
+    <p>Oracle Article: Mutual Exclusion Lock Attributes</p>
+    <p><a target="_blank" href= "https://docs.oracle.com/cd/E19455-01/806-5257/6je9h032o/index.html#:~:text=Mutual%20exclusion%20locks%20synchronize%20threads,also%20preserve%20single%2Dthreaded%20code.">View here</a></p>
+    <br>
+    <br>
+    <p>TutorialsPoint Article: Mutex Locks</p>
+    <p><a target="_blank" href= "https://www.tutorialspoint.com/mutex-locks#:~:text=What%20are%20Mutex%20Locks%3F">View here</a></p>
+</body>
+</html>

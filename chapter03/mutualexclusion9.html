@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDC Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <h1 style="font-size: 40px; font-family: Archivo; background-color: #648870; color: #fff;;">PDC Quest</h1>
+        <ul>
+        <li style="font-size: 10px; font-family: Archivo;"><a href="index.html" onclick="window.open('', '_self');">HOME</a></li>
+        <li style="font-family: Archivo;">
+            <a href="#">QUESTION CATEGORIES ▾</a>
+            <ul class="dropdown">
+                <li style="font-family: Archivo;"><a href="concurrency.html" onclick="window.open('concurrency.html', '_self');">1 - Concurrency</a></li>
+                <li style="font-family: Archivo;"><a href="mutualexclusion.html"  onclick="window.open('mutualexclusion.html', '_self');">2 - Mutual Exclusion</a></li>
+                <li style="font-family: Archivo;"><a href="consistency.html" onclick="window.open('consistency.html', '_self');">3 - Consistency in State/Memory Manipulation</a></li>
+                <li style="font-family: Archivo;"><a href="messagepassing.html" onclick="window.open('messagepassing.html', '_self');">4 - Message Passing</a></li>
+                <li style="font-family: Archivo;"><a href="sharedmemory.html" onclick="window.open('sharedmemory.html', '_self');">5 - Shared Memory Models</a></li>
+                <li style="font-family: Archivo;"><a href="scalability.html" onclick="window.open('scalability.html', '_self');">6 - Scalability</a></li>
+                <li style="font-family: Archivo;"><a href="scheduling.html" onclick="window.open('scheduling.html', '_self');">7 - Scheduling and Load Balancing</a></li>
+                <li style="font-family: Archivo;"><a href="speedup.html" onclick="window.open('speedup.html', '_self');">8 - Speedup/Amdahl's Law</a></li>
+            </ul>
+        </li>
+        </ul>
+    </nav>    
+    <br>
+    <p style="text-align: center;">Mutual Exclusion – ME</p>
+    <h2>Question 9. What is a critical section, and how does mutual exclusion relate to it?</h2>
+    <br>
+    <h3>Answer:</h3>
+    <p>
+        A critical section is a portion of a program where shared resources are accessed or modified. Mutual exclusion ensures that only one thread or process can execute the critical section at a time, preventing concurrent access that could lead to data corruption.
+    </p>
+    <br>
+    <h3>Resources:</h3>
+    <p>Microsoft Article: Critical Section Objects</p>
+    <p><a target="_blank" href= "https://learn.microsoft.com/en-us/windows/win32/sync/critical-section-objects#:~:text=A%20critical%20section%20object%20provides%20synchronization%20similar%20to%20that%20provided%20by%20a%20mutex%20object%2C%20except%20that%20a%20critical%20section%20can%20be%20used%20only%20by%20the%20threads%20of%20a%20single%20process.%20Critical%20section%20objects%20cannot%20be%20shared%20across%20processes.">View here</a></p>
+    <br>
+    <br>
+    <p>Medium Article: Synchronization in OS</p>
+    <p><a target="_blank" href= "https://medium.com/@hoangxuantoank13/synchronization-in-os-962e224d59e2#:~:text=a%20critical%20section%20is%20a%20group%20of%20instructions/statements%20or%20regions%20of%20code%20that%20need%20to%20be%20executed%20atomically%2C%20such%20as%20accessing%20a%20resource">View here</a></p>
+</body>
+</html>
