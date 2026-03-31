@@ -2,6 +2,9 @@
 
 Welcome to the official repository for the appendix materials accompanying **Topics in Parallel and Distributed Computing: From Concepts to the Classroom**. This repository contains supplementary resources, code examples, datasets, and extended figures referenced throughout the text.
 
+* **CDER center: [cdercenter.org](https://cdercenter.org)**
+* **CDER Book Volume 3 Appendix: https://cder-center.github.io/CDER_vol3_appendix**
+
 ## About the Book
 
 [Add a brief 1-2 sentence description of the book here to give visitors context regarding the scope of the parallel and distributed computing topics covered.]
