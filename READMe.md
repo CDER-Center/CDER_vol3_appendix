@@ -7,7 +7,7 @@ Welcome to the official repository for the appendix materials accompanying **Top
 
 ## About the Book
 
-[Add a brief 1-2 sentence description of the book here to give visitors context regarding the scope of the parallel and distributed computing topics covered.]
+Volume 3 will focus on how the early adopters of the NSF/IEEE-TCPP curriculum guidelines or ACM/IEEE 2013 and related curricula and the computing community at large have integrated PDC topics in specific courses in their local contexts. These are intended to provide instructors of specific modules or courses with material ready to be incorporated into their classes with advice on how to teach based on prior experiences. The chapters are expected to include how the PDC topics at hand were taught and how they were integrated into the current courses. Possible courses include early computing courses such as CS0, CS1, CS2, Discrete Math, Data structures and Algorithms, Systems/Computer Organization, and Digital Logic as well as upper level/advanced courses such as Networking, Operating Systems, Computer Architecture, Software Engineering, and Databases.
 
 * **🛒 Buy the Book: TBA**
 * **📄 Download Free Chapters: https://cdercenter.org/book-chapters-volume-3**
